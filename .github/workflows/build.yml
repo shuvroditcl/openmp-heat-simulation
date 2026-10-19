@@ -1,0 +1,17 @@
+name: C++ Build CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install CFITSIO Dependency
+      run: sudo apt-get update && sudo apt-get install -y libcfitsio-dev
+      
+    - name: Compile the simulation
+      run: make
