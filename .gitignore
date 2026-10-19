@@ -1,0 +1,11 @@
+# Compiled objects and executables
+*.o
+heat_omp
+
+# Data outputs and SLURM logs
+*.fit
+*.out
+slurm-*.out
+
+# OS generated files
+.DS_Store
