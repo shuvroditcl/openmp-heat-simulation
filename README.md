@@ -13,7 +13,6 @@ This repository contains a High-Performance Computing (HPC) simulation that nume
 * `makefile`: GNU C++ compilation directives including `-fopenmp`, `-O3`, and CFITSIO linking.
 * `job_ass3.sh`: SLURM batch execution script for automated thread scaling.
 * `plot_scaling.py`: Python script utilizing Matplotlib to generate scaling visualizations.
-* `Assignment_3_Report.pdf`: Comprehensive performance analysis and algorithmic breakdown.
 
 ## Performance Analysis
 The simulation was benchmarked on a 16-core Linux SMP node to evaluate parallel scaling efficiency.
