@@ -22,3 +22,8 @@ The simulation was benchmarked on a 16-core Linux SMP node to evaluate parallel 
 
 * **Strong Scaling (Amdahl's Law):** Evaluated on a fixed $2000 \times 2000$ grid. The simulation demonstrates significant execution time reduction scaling from 1 to 4 threads, eventually encountering sequential overhead limits at 16 threads due to OpenMP barrier synchronizations and reduction consolidations.
 * **Weak Scaling (Gustafson's Law):** Evaluated with a constant workload of $160,000$ pixels per thread. As grid dimensions scale up, the physical propagation distance required for the heat to reach global convergence expands exponentially, resulting in the expected non-linear runtime scaling characteristic of iterative numerical relaxation solvers.
+
+**Author**<br>
+Subrota Debnath<br>
+Master of Information Sciences<br>
+Massey University
